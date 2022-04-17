@@ -9,6 +9,8 @@ function contar(){
         rest.style.color ='#ff0000'
     } else{
         rest.innerHTML ='Contando: <br>'
+        rest.style.textAlign="left"
+
         let init = Number(start.value)
         let fim = Number(end.value)
         let pass = Number(step.value)
@@ -16,7 +18,6 @@ function contar(){
         if(pass <= 0){
             rest.innerHTML = 'A entrada <strong>Passo</strong> deve ser maior que 0'
             rest.style.color ='#ff0000'
-            pass = 1
         }else if(init < fim){
             //CONTAGEM CRESCENTE
             for (let cont = init; cont <= fim; cont += pass){
