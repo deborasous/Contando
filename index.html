@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https: //fonts.googleapis.com/css2? família= Noto+Sans:wght@400;600 & display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="contar.js"></script>
+    <title>Contar</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <main>
+        <div id="conteiner">
+            <section class="bg">
+                <form action="#" >
+                    <div class="grid">
+                        <label for="start">Início: </label>
+                        <input type="number" name="end" class="lb start"><br>
+                    </div>
+                    <div class="grid">
+                        <label for="end" >Fim: </label>
+                        <input type="number" name="end" class="lb end"><br>
+                    </div>
+                    <div class="grid">
+                        <label for="step">Passo: </label>
+                        <input type="number" name="step" class="lb step"><br>
+                    </div>
+                        <input type="button" value="Contar" class="button" onclick="contar()">
+                    <div class="res">
+                        Contando...
+                    </div><br>
+                </form>
+            </section> 
+        </div>  
+    </main>
+    <footer>
+        <p>&#169; CursoemVideo</p>
+    </footer>
+    
+</body>
+</html>
