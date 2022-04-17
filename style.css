@@ -5,7 +5,7 @@
     --color-txt-body: #f0f7f5;
     --color-grey: #c9caca;
 
-    --font-title: 600 max(1.75rem, 3vw) 'Open Sans', sans-serif;
+    --font-title: 600 max(1.75rem, 2vw) 'Open Sans', sans-serif;
     --font-body: 500 max(1rem, 1vw) 'Open Sans', sans-serif;
     --font-small: 400 0.875rem 'Open Sans', sans-serif;
 }
